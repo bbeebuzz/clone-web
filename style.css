@@ -1,16 +1,15 @@
-/* For Chrome, Safari, and Edge */
 ::-webkit-scrollbar {
-  width: 4px; /* Vertical scrollbar width */
-  height: 4px; /* Horizontal scrollbar height */
+  width: 4px; 
+  height: 4px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; /* Optional: scrollbar track color */
+  background: transparent; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888; /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #888; 
+  border-radius: 10px; 
 }
 
 * {
