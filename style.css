@@ -272,7 +272,7 @@ body {
 
 .body__product__row__card {
   display: flex;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   flex-direction: column;
   gap: 0.75rem;
   background-color: white;
@@ -287,6 +287,13 @@ body {
   text-align: end;
   font-size: 0.75rem;
   color: #767676;
+}
+
+.body__product__row__card-sold-first {
+  display: flex;
+  font-size: 0.75rem;
+  color: #767676;
+  flex-direction: row-reverse;
 }
 
 .body__product__row__card-name {
@@ -372,6 +379,7 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   overflow-x: auto;
+  height: 313.25px;
 }
 
 .body__lastest__content-box {
@@ -587,6 +595,10 @@ body {
   object-fit: cover;
 }
 
+.footer2__content__row-list-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1280px) {
   ::-webkit-scrollbar {
     width: 4px;
@@ -731,10 +743,12 @@ body {
   .sell-with-sason-text {
     display: none;
   }
-
+  .body__lastest__content {
+    max-height: 151.3px;
+  }
   .body__lastest__content-box {
     max-width: 150px;
-    max-height: 313.17px;
+    max-height: 151.3px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -763,6 +777,7 @@ body {
   .footer__lastest__content {
     flex-direction: column-reverse;
     gap: 1rem;
+    box-sizing: border-box;
   }
 
   .footer__lastest__content-second {
